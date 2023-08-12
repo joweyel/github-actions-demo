@@ -1,4 +1,4 @@
-from hello import add, subtract
+from hello import add, subtract, multiply
 
 
 def test_add():
@@ -6,3 +6,6 @@ def test_add():
 
 def test_subtract():
     assert 0 == subtract(1, 1)
+    
+def test_multiply():
+    assert 6 == multiply(2, 3)
